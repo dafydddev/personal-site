@@ -24,4 +24,15 @@ ShowReadingTime = true
 
 [params.homeInfoParams]
   Title = "Dafydd Henke"
-  Content = "Head of Accessibility at [AbilityNet](https://www.abilitynet.org.uk)."
+  Content = '''
+  Hello, I help make all things digital more accessible.\
+  I'm the Head of Accessibility at [AbilityNet](https://www.abilitynet.org.uk).\
+  Say hello, if you like. My email is dafyddhenke AT gmail DOT com.\
+  (psst, Dafydd is Welsh for David 🏴󠁧󠁢󠁷󠁬󠁳󠁿)
+  '''
+
+[[menu.main]]
+identifier = "Archive"
+name = "Archive"
+url = "/archives/"
+weight = 10
