@@ -1,14 +1,39 @@
-baseURL = "https://example.org/"
-languageCode = "en-us"
-title = "My Test Update Hugo Site"
+baseURL = "https://dafydd.dev"
+title = "Dafydd Henke-Reed"
+paginate = 5
 theme = "PaperMod"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
 
-[[menu.main]]
-name = "archive"
-url = "/archives/"
-weight = 10
+[minify]
+disableXML = true
 
-[[menu.main]]
-name = "tags"
-url = "/tags/"
-weight = 20
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+env = "production"
+description = "Dafydd Henke-Reed Personal Website"
+author = "Dafydd Henke-Reed"
+defaultTheme = "auto"
+ShowShareButtons = true
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+
+[params.homeInfoParams]
+  Title = "PaperMod"
+  Content = "Blah"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/adityatelange/hugo-PaperMod"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://github.com/adityatelange/hugo-PaperMod"
