@@ -1,5 +1,5 @@
 baseURL = "https://dafydd.dev"
-title = "Dafydd Henke-Reed"
+title = "Dafydd Henke-Reed - Personal Website"
 paginate = 5
 theme = "PaperMod"
 enableInlineShortcodes = true
@@ -27,13 +27,9 @@ ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 
 [params.homeInfoParams]
-  Title = "PaperMod"
-  Content = "Blah"
-
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/adityatelange/hugo-PaperMod"
+  Title = "Dafudd Henke"
+  Content = "Blah Blah Blah"
 
 [[params.socialIcons]]
 name = "twitter"
-url = "https://github.com/adityatelange/hugo-PaperMod"
+url = "https://www.twitter.com/o_dafydd"
