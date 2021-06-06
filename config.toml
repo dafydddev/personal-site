@@ -1,5 +1,5 @@
 baseURL = "https://dafydd.dev"
-title = "Dafydd Henke-Reed - Personal Website"
+title = "Dafydd Henke - Accessibility Fool"
 paginate = 5
 theme = "PaperMod"
 enableInlineShortcodes = true
@@ -17,19 +17,11 @@ home = [ "HTML", "RSS", "JSON" ]
 
 [params]
 env = "production"
-description = "Dafydd Henke-Reed Personal Website"
-author = "Dafydd Henke-Reed"
+description = "Dafydd Henke - Personal Website"
+author = "Dafydd Henke"
 defaultTheme = "auto"
-ShowShareButtons = true
 ShowReadingTime = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
 
 [params.homeInfoParams]
-  Title = "Dafudd Henke"
-  Content = "Blah Blah Blah"
-
-[[params.socialIcons]]
-name = "twitter"
-url = "https://www.twitter.com/o_dafydd"
+  Title = "Dafydd Henke"
+  Content = "Head of Accessibility at [AbilityNet](https://www.abilitynet.org.uk)."

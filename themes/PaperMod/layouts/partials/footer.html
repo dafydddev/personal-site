@@ -69,13 +69,16 @@
 
 {{- if (not .Site.Params.disableThemeToggle) }}
 <script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
+    var themetoggle = document.getElementById("theme-toggle");
+    themetoggle.addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
+            themetoggle.setAttribute("aria-pressed", false);
         } else {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
+            themetoggle.setAttribute("aria-pressed", true);
         }
     })
 
