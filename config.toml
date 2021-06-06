@@ -2,3 +2,13 @@ baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "My Test Update Hugo Site"
 theme = "PaperMod"
+
+[[menu.main]]
+name = "archive"
+url = "/archives/"
+weight = 10
+
+[[menu.main]]
+name = "tags"
+url = "/tags/"
+weight = 20
