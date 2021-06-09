@@ -28,11 +28,11 @@
   <div class="post-content">
     {{- partial "anchored_headings.html" .Content -}}
   </div>
-  <footer class="post-footer">
+  <div class="post-footer">
     {{- if .Params.tags }}
     <ul class="post-tags">
       {{- range ($.GetTerms "tags") }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      <li><a href="{{ .Permalink }}">Posts tagged with {{ .LinkTitle }}</a></li>
       {{- end }}
     </ul>
     {{- end }}
@@ -42,7 +42,7 @@
     {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
     {{- end }}
-  </footer>
+  </div>
 
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}

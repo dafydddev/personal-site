@@ -5,7 +5,7 @@
 {{- else }} {{/* if not profileMode */}}
 
 {{- if not .IsHome | and .Title }}
-<header class="page-header">
+<div class="page-header">
   {{- partial "breadcrumbs.html" . }}
   <h1>{{ .Title }}</h1>
   {{- if .Description }}
@@ -13,7 +13,7 @@
     {{ .Description }}
   </div>
   {{- end }}
-</header>
+</div>
 {{- end }}
 
 {{- $pages := union .RegularPages .Sections }}

@@ -8,6 +8,7 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 enableEmoji = true
+disableScrollToTop = false
 
 [minify]
 disableXML = true
