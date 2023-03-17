@@ -64,8 +64,3 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
-
-img {
-    border-radius: 25%;
-    width: 10%;
-  }
