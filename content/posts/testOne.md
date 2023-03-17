@@ -7,13 +7,29 @@ tags: ["David", "TestTagOne"]
 
 canonicalURL: "https://canonical.url/to/page"
 ShowReadingTime: true
-
+ShowToc: true
 ---
 
-## Hello World
+## Hello World Two
 
-My Name is David. And this is a test article. 
+### Intro
+
+My Name is David. And this is a test article. In this article, I want to explain some HTML. 
+
+### Basic HTML
+
+Etiam at imperdiet mi, nec efficitur nisi. In vitae nisi ex. Fusce vitae dui diam. Fusce in ex in libero dapibus facilisis auctor tincidunt dui.
 
 ```
-blah
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
 ```
+
+Vestibulum pharetra ullamcorper est, eget imperdiet purus gravida eu. Proin sapien neque, auctor non magna sed, iaculis sagittis ante. Aenean a ullamcorper est, et consequat lacus. 
