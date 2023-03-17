@@ -14,4 +14,4 @@ ShowReadingTime: true
 
 My Name is David. And this is a test article. In this article, let's talk music. 
 
-![blah](../britOne.jpg)
+[testing]([![blah](../britOne.jpg)])
