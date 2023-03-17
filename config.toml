@@ -9,6 +9,7 @@ buildFuture = false
 buildExpired = false
 enableEmoji = true
 disableScrollToTop = false
+params: assets: favicon: "favicon.ico"
 
 [minify]
 disableXML = true
