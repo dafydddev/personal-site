@@ -7,7 +7,6 @@ tags: ["David", "TestTagOne"]
 
 canonicalURL: "https://canonical.url/to/page"
 ShowReadingTime: true
-ShowToc: true
 
 ---
 
