@@ -8,9 +8,14 @@
     line-height: var(--header-height)
 }
 
+.nav a {
+    transition: transform 250ms;
+}
+
 .nav a:hover {
     opacity: 0.8;
     display: block;
+    transform: translateY(-10px);
 }
 
 .logo, #menu {
