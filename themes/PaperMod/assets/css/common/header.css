@@ -9,6 +9,7 @@
 }
 
 .nav a:hover {
+    color: red;
     display: block;
     animation-name: bounce;
     animation-timing-function: ease;
