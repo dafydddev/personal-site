@@ -67,4 +67,7 @@ pre:hover .copy-code {
 
 img {
     border-radius: 25%;
+    box-shadow: 5px 10px;
+    float: left;
+    display: inline;
   }
