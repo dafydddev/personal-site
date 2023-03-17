@@ -1,5 +1,5 @@
-baseURL = "https://dafydd.dev"
-title = "Dafydd Henke - Accessibility Fool"
+baseURL = "https://effortless-pudding-7ddf9d.netlify.app"
+title = "David - Web Dev Fool"
 paginate = 5
 theme = "PaperMod"
 enableInlineShortcodes = true
@@ -29,8 +29,8 @@ Title = "David Portfolio"
 Content = '''
 Hello, I am David. I'm from Wales. Welcome to my portfolio 🏴󠁧󠁢󠁷󠁬󠁳󠁿.\
 \
-I help make digital things more accessible. I am the Head of Accessibility at [AbilityNet](https://www.abilitynet.org.uk).
-Say hello, if you like. My email is dafyddhenke AT gmail DOT com.
+I help make develop websites and apps. I am the [job title] at [ACME Corp](https://www.example.com).
+Say hello, if you like. My email is example AT gmail DOT com.
 '''
 
 [[menu.main]]
