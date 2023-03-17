@@ -35,12 +35,6 @@ Say hello, if you like. My email is example AT gmail DOT com.
 '''
 
 [[menu.main]]
-identifier = "About"
-name = "About"
-url = "/about/"
-weight = 10
-
-[[menu.main]]
 identifier = "Articles"
 name = "Articles"
 url = "/posts/"
