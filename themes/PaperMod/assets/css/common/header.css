@@ -15,7 +15,7 @@
 .nav a:hover {
     opacity: 0.8;
     display: block;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 
 .logo, #menu {
