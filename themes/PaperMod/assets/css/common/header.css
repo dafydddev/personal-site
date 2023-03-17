@@ -8,8 +8,16 @@
     line-height: var(--header-height)
 }
 
-.nav a {
-    display: block
+.nav a:hover {
+    display: block;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-50px); }
+  100% { transform: translateY(0); }
 }
 
 .logo,
