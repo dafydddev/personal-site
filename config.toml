@@ -43,17 +43,11 @@ weight = 10
 [[menu.main]]
 identifier = "Articles"
 name = "Articles"
-url = "/articles/"
-weight = 20
-
-[[menu.main]]
-identifier = "Contact"
-name = "Contact"
-url = "/contact/"
+url = "/posts/"
 weight = 20
 
 [[menu.main]]
 identifier = "Search"
 name = "Search"
 url = "/Search/"
-weight = 20
+weight = 30
