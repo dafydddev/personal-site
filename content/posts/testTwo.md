@@ -14,4 +14,4 @@ ShowReadingTime: true
 
 My Name is David. And this is a test article. In this article, let's talk music. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I6RVE0xYjoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![blah](static/images/britOne.jpg)
