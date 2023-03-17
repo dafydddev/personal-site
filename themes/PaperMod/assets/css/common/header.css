@@ -8,31 +8,31 @@
     line-height: var(--header-height)
 }
 
-.nav a {
-    text-decoration: none;
-    color: #18272F;
-    font-weight: 700;
-    position: relative;
-  }
-  
-.nav a::before {
+.nav a:hover {
+    opacity: 0.8;
+    display: block;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+a::before {
     content: '';
     background-color: hsla(196, 61%, 58%, .75);
     position: absolute;
     left: 0;
-    bottom: 2px;
+    bottom: 1px;
     width: 100%;
-    height: 6px;
+    height: 3px;
     z-index: -1;
     transition: all .3s ease-in-out;
   }
   
-  .nav a:hover::before {
+  a:hover::before {
     bottom: 0;
     height: 100%;
   }
 
-#menu {
+.logo, #menu {
     display: flex;
     margin: auto var(--gap);
 }
