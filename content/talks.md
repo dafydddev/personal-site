@@ -1,25 +1,23 @@
 ---
-title: "Talks"
-url: "/talks/"
-ShowReadingTime: false
+title: "Articles"
+url: "/articles/"
+ShowReadingTime: true
 
 ---
 
-## Hello World
+## Demo Article 1
 
-dssfsdfsf
-
-
-## Hello World
-
-dssfsdfsf
+This is an example article that I have written.
 
 
-## Hello World
+## Demo Article 2
 
-dssfsdfsf
+This is an example article that I have written.
 
+## Demo Article 3
 
-## Hello World
+This is an example article that I have written.
 
-dssfsdfsf
+## Demo Article 3
+
+This is an example article that I have written.

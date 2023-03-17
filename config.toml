@@ -18,16 +18,16 @@ home = [ "HTML", "RSS", "JSON" ]
 
 [params]
 env = "production"
-description = "Dafydd Henke - Personal Website"
-author = "Dafydd Henke"
+description = "David - Portfolio Website"
+author = "David"
 defaultTheme = "auto"
 ShowReadingTime = true
 keywords = ["blog", "portfolio", "accessibility", "a11y", "web development"]
 
 [params.homeInfoParams]
-Title = "Dafydd Henke"
+Title = "David Portfolio"
 Content = '''
-Hello, I am Dafydd. It is Welsh for David 🏴󠁧󠁢󠁷󠁬󠁳󠁿.\
+Hello, I am David. I'm from Wales. Welcome to my portfolio 🏴󠁧󠁢󠁷󠁬󠁳󠁿.\
 \
 I help make digital things more accessible. I am the Head of Accessibility at [AbilityNet](https://www.abilitynet.org.uk).
 Say hello, if you like. My email is dafyddhenke AT gmail DOT com.
