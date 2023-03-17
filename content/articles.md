@@ -9,7 +9,6 @@ ShowReadingTime: true
 
 This is an example article that I have written.
 
-
 ## Demo Article 2
 
 This is an example article that I have written.

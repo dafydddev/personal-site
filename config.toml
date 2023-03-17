@@ -51,3 +51,9 @@ identifier = "Contact"
 name = "Contact"
 url = "/contact/"
 weight = 20
+
+[[menu.main]]
+identifier = "Search"
+name = "Search"
+url = "/Search/"
+weight = 20
