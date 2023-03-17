@@ -34,13 +34,19 @@ Say hello, if you like. My email is example AT gmail DOT com.
 '''
 
 [[menu.main]]
-identifier = "Talks"
-name = "Talks"
-url = "/talks/"
+identifier = "About"
+name = "About"
+url = "/about/"
 weight = 10
 
 [[menu.main]]
-identifier = "Archive"
-name = "Archive"
-url = "/archives/"
+identifier = "Articles"
+name = "Articles"
+url = "/articles/"
+weight = 20
+
+[[menu.main]]
+identifier = "Contact"
+name = "Contact"
+url = "/contact/"
 weight = 20
