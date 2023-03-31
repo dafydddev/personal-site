@@ -65,7 +65,7 @@ pre:hover .copy-code {
     display: block;
 }
 
-a {
+main > * a {
     text-decoration: underline;
-    font-weight: 700;
+    font-weight: 600;
 }
