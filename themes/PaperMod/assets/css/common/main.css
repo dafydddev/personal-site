@@ -159,3 +159,8 @@ transform-origin: 50% 50%;
     -ms-user-select: none;      
     user-select: none;
 }
+
+main > * a {
+    text-decoration: underline;
+    font-weight: 600;
+}
