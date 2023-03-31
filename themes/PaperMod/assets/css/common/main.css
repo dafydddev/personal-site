@@ -64,3 +64,8 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+a {
+    text-decoration: underline;
+    font-weight: 700;
+}
