@@ -14,7 +14,7 @@ disableScrollToTop = false
 disableXML = true
 
 [outputs]
-home = [ "HTML", "RSS", "JSON" ]
+home = [ "HTML", "RSS" ]
 
 [params]
 env = "production"

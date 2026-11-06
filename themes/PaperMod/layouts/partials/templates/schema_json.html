@@ -6,14 +6,7 @@
   "name": {{ .Site.Title }},
   "url": {{ .Site.BaseURL }},
   "description": {{ .Site.Params.description | plainify | truncate 180 | safeHTML }},
-  "thumbnailUrl": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }},
-  "sameAs": [
-    {{- if .Site.Params.schema.sameAs }}
-      {{ range $i, $e := .Site.Params.schema.sameAs }}{{ if $i }}, {{ end }}{{ trim $e " " }}{{ end }}
-    {{- else}}
-      {{ range $i, $e := .Site.Params.SocialIcons }}{{ if $i }}, {{ end }}{{ trim $e.url " " }}{{ end }}
-    {{- end}}
-  ]
+  "thumbnailUrl": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }}
 }
 </script>
 {{- else if (or .IsPage .IsSection) }}
