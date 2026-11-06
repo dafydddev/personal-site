@@ -57,8 +57,9 @@ body:not(.dark) #sun {
 #menu {
     list-style: none;
     word-break: keep-all;
-    overflow-x: auto;
-    white-space: nowrap
+    overflow: visible;
+    flex-wrap: wrap;
+    white-space: normal
 }
 
 #menu li+li {
