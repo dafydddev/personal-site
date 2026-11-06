@@ -5,11 +5,13 @@
     max-width: calc(var(--nav-width) + var(--gap) * 2);
     margin-inline-start: auto;
     margin-inline-end: auto;
+    min-height: var(--header-height);
     line-height: var(--header-height)
 }
 
 .nav a {
-    display: block
+    display: block;
+    line-height: normal
 }
 
 .logo,
@@ -42,7 +44,8 @@
 
 button#theme-toggle  {
     font-size: 26px;
-    margin: auto 4px
+    margin: auto 4px;
+    line-height: normal
 }
 
 body.dark #moon {

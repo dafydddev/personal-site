@@ -11,7 +11,8 @@
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3
+    -webkit-line-clamp: 3;
+    line-clamp: 3
 }
 
 .first-entry .entry-header h1 {
@@ -22,15 +23,21 @@
 .first-entry .entry-content {
     margin: 14px 0;
     font-size: 16px;
-    -webkit-line-clamp: 3
+    -webkit-line-clamp: 3;
+    line-clamp: 3
 }
 
 .first-entry .entry-footer {
     font-size: 14px
 }
 
+.first-entry.home-info {
+    margin-bottom: 0
+}
+
 .home-info .entry-content {
-    -webkit-line-clamp: unset
+    -webkit-line-clamp: unset;
+    line-clamp: unset
 }
 
 .post-entry {
@@ -63,7 +70,8 @@
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2
+    -webkit-line-clamp: 2;
+    line-clamp: 2
 }
 
 .entry-footer {
