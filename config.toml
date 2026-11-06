@@ -34,13 +34,19 @@ Say hello, if you like. My email is dafyddhenke AT gmail DOT com.
 '''
 
 [[menu.main]]
+identifier = "Games"
+name = "Games"
+url = "/tags/games/"
+weight = 10
+
+[[menu.main]]
 identifier = "Talks"
 name = "Talks"
-url = "/talks/"
-weight = 10
+url = "/tags/talks/"
+weight = 20
 
 [[menu.main]]
 identifier = "Archive"
 name = "Archive"
 url = "/archives/"
-weight = 20
+weight = 30
