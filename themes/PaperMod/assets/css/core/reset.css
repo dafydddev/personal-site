@@ -94,11 +94,6 @@ textarea {
     border: 0;
 }
 
-input,
-textarea {
-    outline: 0
-}
-
 button,
 input[type=button],
 input[type=submit] {

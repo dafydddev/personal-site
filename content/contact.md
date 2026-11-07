@@ -3,6 +3,7 @@ title: "Contact"
 url: "/contact/"
 ShowReadingTime: false
 bodyClass: "contact-page"
+hideMeta: true
 ---
 
 Use the form to get in touch.

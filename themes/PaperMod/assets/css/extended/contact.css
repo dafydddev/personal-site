@@ -26,22 +26,6 @@
     border-radius: var(--radius);
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus,
-.contact-form button:focus {
-    border-color: var(--primary);
-    outline: 2px solid var(--primary);
-    outline-offset: 2px;
-}
-
-.contact-form input:-webkit-autofill,
-.contact-form input:-webkit-autofill:hover,
-.contact-form input:-webkit-autofill:focus {
-    -webkit-text-fill-color: var(--primary) !important;
-    -webkit-box-shadow: 0 0 0 1000px var(--theme) inset !important;
-    caret-color: var(--primary);
-}
-
 .contact-form textarea {
     min-height: 160px;
     resize: vertical;
