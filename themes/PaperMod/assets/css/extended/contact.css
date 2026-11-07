@@ -27,16 +27,18 @@
 }
 
 .contact-form input:focus,
-.contact-form textarea:focus {
+.contact-form textarea:focus,
+.contact-form button:focus {
     border-color: var(--primary);
-    box-shadow: 0 0 0 2px var(--tertiary);
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
 }
 
 .contact-form input:-webkit-autofill,
 .contact-form input:-webkit-autofill:hover,
 .contact-form input:-webkit-autofill:focus {
-    -webkit-text-fill-color: var(--primary);
-    -webkit-box-shadow: 0 0 0 1000px var(--theme) inset;
+    -webkit-text-fill-color: var(--primary) !important;
+    -webkit-box-shadow: 0 0 0 1000px var(--theme) inset !important;
     caret-color: var(--primary);
 }
 
