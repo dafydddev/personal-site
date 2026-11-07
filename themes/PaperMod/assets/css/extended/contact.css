@@ -32,6 +32,14 @@
     box-shadow: 0 0 0 2px var(--tertiary);
 }
 
+.contact-form input:-webkit-autofill,
+.contact-form input:-webkit-autofill:hover,
+.contact-form input:-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--primary);
+    -webkit-box-shadow: 0 0 0 1000px var(--theme) inset;
+    caret-color: var(--primary);
+}
+
 .contact-form textarea {
     min-height: 160px;
     resize: vertical;
@@ -52,6 +60,7 @@
 
 .contact-form .pageclip-form__success {
     position: static;
+    display: block;
     margin-top: 24px;
     padding: 16px 0;
     color: var(--primary);
@@ -63,4 +72,16 @@
 .contact-form .pageclip-form__success__message {
     font-size: 1rem;
     font-weight: 600;
+    text-align: left;
+}
+
+.contact-page {
+    background-color: var(--code-bg);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+    background-size: 32px 32px;
+}
+
+.dark.contact-page {
+    background-color: var(--theme);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px);
 }
