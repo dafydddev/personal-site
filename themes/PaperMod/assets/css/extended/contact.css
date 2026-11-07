@@ -67,12 +67,16 @@
     text-align: left;
     background: transparent;
     border: 0;
+    animation: none !important;
+    transition: none !important;
 }
 
 .contact-form .pageclip-form__success__message {
     font-size: 1rem;
     font-weight: 600;
     text-align: left;
+    animation: none !important;
+    transition: none !important;
 }
 
 .contact-page {

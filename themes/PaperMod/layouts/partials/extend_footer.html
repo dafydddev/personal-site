@@ -4,8 +4,16 @@
 <script>
 	document.querySelectorAll('.pageclip-form').forEach(function (form) {
 		new MutationObserver(function () {
+			var success = form.querySelector('.pageclip-form__success');
 			var message = form.querySelector('.pageclip-form__success__message');
-			if (message) {
+			if (success) {
+				var submit = form.querySelector('.pageclip-form__submit');
+				if (submit && success !== submit.previousElementSibling) {
+					form.insertBefore(success, submit);
+				}
+				success.onclick = null;
+			}
+			if (message && success) {
 				message.setAttribute('role', 'status');
 				message.textContent = "Thanks for getting in touch. I'll get back to you soon.";
 			}
