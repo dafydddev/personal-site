@@ -1,6 +1,5 @@
 baseURL = "https://dafydd.dev"
 title = "Dafydd Henke - Accessibility Fool"
-paginate = 5
 theme = "PaperMod"
 enableInlineShortcodes = true
 enableRobotsTXT = true
@@ -9,6 +8,9 @@ buildFuture = false
 buildExpired = false
 enableEmoji = true
 disableScrollToTop = false
+
+[pagination]
+pagerSize = 5
 
 [minify]
 disableXML = true
