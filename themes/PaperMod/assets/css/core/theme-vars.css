@@ -29,9 +29,9 @@
     --border: #333;
 }
 
-.list {
+body:not(.dark) {
     background-color: var(--code-bg);
-    background-image: radial-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.12) 1px, transparent 1px);
     background-size: 32px 32px;
 }
 

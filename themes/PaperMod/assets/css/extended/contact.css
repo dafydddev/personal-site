@@ -26,6 +26,14 @@
     border-radius: var(--radius);
 }
 
+.contact-form input:-webkit-autofill,
+.contact-form input:-webkit-autofill:hover,
+.contact-form input:-webkit-autofill:focus {
+    -webkit-text-fill-color: var(--primary) !important;
+    -webkit-box-shadow: 0 0 0 1000px var(--theme) inset !important;
+    caret-color: var(--primary);
+}
+
 .contact-form textarea {
     min-height: 160px;
     resize: vertical;
@@ -65,13 +73,14 @@
     transition: none !important;
 }
 
-.contact-page {
+body.contact-page {
     background-color: var(--code-bg);
-    background-image: radial-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px);
+    background-image: radial-gradient(rgba(0, 0, 0, 0.12) 1px, transparent 1px);
     background-size: 32px 32px;
 }
 
-.dark.contact-page {
+body.dark.contact-page {
     background-color: var(--theme);
     background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px);
 }
+
