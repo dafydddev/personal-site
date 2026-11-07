@@ -49,3 +49,18 @@
 .contact-form button:hover {
     opacity: 0.85;
 }
+
+.contact-form .pageclip-form__success {
+    position: static;
+    margin-top: 24px;
+    padding: 16px 0;
+    color: var(--primary);
+    text-align: left;
+    background: transparent;
+    border: 0;
+}
+
+.contact-form .pageclip-form__success__message {
+    font-size: 1rem;
+    font-weight: 600;
+}

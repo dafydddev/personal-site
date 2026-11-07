@@ -1,4 +1,14 @@
 {{- /* Footer custom content area start */ -}}
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
 <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+<script>
+	document.querySelectorAll('.pageclip-form').forEach(function (form) {
+		new MutationObserver(function () {
+			var message = form.querySelector('.pageclip-form__success__message');
+			if (message) {
+				message.setAttribute('role', 'status');
+			}
+		}).observe(form, { childList: true });
+	});
+</script>
 {{- /* Footer custom content area end */ -}}

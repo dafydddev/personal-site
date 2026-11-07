@@ -19,8 +19,5 @@ Use the form to get in touch.
   <button type="submit" class="pageclip-form__submit">
     <span>Send</span>
   </button>
-  <div class="pageclip-form__success">
-    Thanks for getting in touch. I'll get back to you soon.
-  </div>
 </form>
 {{< /rawhtml >}}
