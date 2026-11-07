@@ -52,3 +52,9 @@ identifier = "Archive"
 name = "Archive"
 url = "/archives/"
 weight = 30
+
+[[menu.main]]
+identifier = "Contact"
+name = "Contact"
+url = "/contact/"
+weight = 40
